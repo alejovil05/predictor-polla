@@ -1,0 +1,65 @@
+date,group,home,away,xg_home,xg_away,stage
+2026-06-16,I,Francia,Senegal,1.75,0.75,Grupos
+2026-06-16,I,Irak,Noruega,0.65,2.25,Grupos
+2026-06-16,J,Argentina,Argelia,2.05,0.7,Grupos
+2026-06-17,J,Austria,Jordania,1.65,0.85,Grupos
+2026-06-17,K,Portugal,RD Congo,2.2,0.55,Grupos
+2026-06-17,L,Inglaterra,Croacia,1.55,1.05,Grupos
+2026-06-17,L,Ghana,Panamá,1.35,0.95,Grupos
+2026-06-17,K,Uzbekistán,Colombia,0.85,1.55,Grupos
+2026-06-18,A,Chequia,Sudáfrica,1.45,1.05,Grupos
+2026-06-18,B,Suiza,Bosnia y Herzegovina,1.45,1.1,Grupos
+2026-06-18,B,Canadá,Qatar,1.55,0.9,Grupos
+2026-06-18,A,México,Corea del Sur,1.35,1.15,Grupos
+2026-06-19,D,Estados Unidos,Australia,1.7,0.95,Grupos
+2026-06-19,C,Escocia,Marruecos,1.05,1.25,Grupos
+2026-06-19,C,Brasil,Haití,2.65,0.35,Grupos
+2026-06-19,D,Turquía,Paraguay,1.3,1.1,Grupos
+2026-06-20,F,Países Bajos,Suecia,1.55,1.15,Grupos
+2026-06-20,E,Alemania,Costa de Marfil,2.1,0.8,Grupos
+2026-06-20,E,Ecuador,Curazao,1.55,0.75,Grupos
+2026-06-20,F,Túnez,Japón,0.9,1.45,Grupos
+2026-06-21,H,España,Arabia Saudita,2.2,0.55,Grupos
+2026-06-21,G,Bélgica,Irán,1.75,0.85,Grupos
+2026-06-21,H,Uruguay,Cabo Verde,1.8,0.7,Grupos
+2026-06-21,G,Nueva Zelanda,Egipto,0.95,1.35,Grupos
+2026-06-22,J,Argentina,Austria,1.75,0.9,Grupos
+2026-06-22,I,Francia,Irak,2.45,0.4,Grupos
+2026-06-22,I,Noruega,Senegal,1.45,1.1,Grupos
+2026-06-22,J,Jordania,Argelia,0.75,1.55,Grupos
+2026-06-23,K,Portugal,Uzbekistán,2.25,0.5,Grupos
+2026-06-23,L,Inglaterra,Ghana,1.85,0.85,Grupos
+2026-06-23,L,Panamá,Croacia,0.75,1.65,Grupos
+2026-06-23,K,Colombia,RD Congo,1.75,0.75,Grupos
+2026-06-24,B,Suiza,Canadá,1.25,1.2,Grupos
+2026-06-24,B,Bosnia y Herzegovina,Qatar,1.35,0.95,Grupos
+2026-06-24,C,Escocia,Brasil,0.65,2.2,Grupos
+2026-06-24,C,Marruecos,Haití,1.8,0.55,Grupos
+2026-06-24,A,Chequia,México,1.1,1.35,Grupos
+2026-06-24,A,Sudáfrica,Corea del Sur,0.95,1.45,Grupos
+2026-06-25,E,Ecuador,Alemania,0.85,1.95,Grupos
+2026-06-25,E,Curazao,Costa de Marfil,0.65,1.7,Grupos
+2026-06-25,F,Túnez,Países Bajos,0.65,2.05,Grupos
+2026-06-25,F,Japón,Suecia,1.1,1.35,Grupos
+2026-06-25,D,Turquía,Estados Unidos,1.05,1.65,Grupos
+2026-06-25,D,Paraguay,Australia,1.2,1.1,Grupos
+2026-06-26,I,Noruega,Francia,0.95,1.9,Grupos
+2026-06-26,I,Senegal,Irak,1.55,0.65,Grupos
+2026-06-26,H,Uruguay,España,1.05,1.55,Grupos
+2026-06-26,H,Cabo Verde,Arabia Saudita,0.95,1.2,Grupos
+2026-06-26,G,Nueva Zelanda,Bélgica,0.65,2.0,Grupos
+2026-06-26,G,Egipto,Irán,1.2,1.1,Grupos
+2026-06-27,L,Panamá,Inglaterra,0.55,2.25,Grupos
+2026-06-27,L,Croacia,Ghana,1.45,1.05,Grupos
+2026-06-27,K,Colombia,Portugal,1.0,1.7,Grupos
+2026-06-27,K,RD Congo,Uzbekistán,1.05,1.05,Grupos
+2026-06-27,J,Jordania,Argentina,0.45,2.45,Grupos
+2026-06-27,J,Argelia,Austria,1.1,1.35,Grupos
+2026-06-28,KO,Sudáfrica,Canadá,0.85,1.6,16avos
+2026-06-29,KO,Brasil,Japón,1.85,0.95,16avos
+2026-06-29,KO,Alemania,Paraguay,1.9,0.85,16avos
+2026-06-29,KO,Países Bajos,Marruecos,1.55,1.1,16avos
+2026-06-30,KO,Costa de Marfil,Noruega,1.2,1.45,16avos
+2026-06-30,KO,Francia,Suecia,1.9,0.9,16avos
+2026-07-01,KO,Estados Unidos,Bosnia-Herzegovina,1.55,1.1,16avos
+2026-07-03,KO,Argentina,Cabo Verde,2.25,0.55,16avos

@@ -1,0 +1,565 @@
+team,date,opponent,gf,ga
+Inglaterra,2026-06-10,Costa Rica,3,0
+Inglaterra,2026-06-06,Nueva Zelanda,1,0
+Inglaterra,2026-03-31,Japón,0,1
+Inglaterra,2026-03-27,Uruguay,1,1
+Inglaterra,2025-11-16,Albania,2,0
+Inglaterra,2025-11-13,Serbia,2,0
+Inglaterra,2025-10-14,Letonia,5,0
+Inglaterra,2025-10-09,Gales,3,0
+Inglaterra,2025-09-09,Serbia,5,0
+Inglaterra,2025-09-06,Andorra,2,0
+Croacia,2026-06-07,Eslovenia,2,1
+Croacia,2026-06-02,Bélgica,0,2
+Croacia,2026-03-31,Brasil,1,3
+Croacia,2026-03-26,Colombia,2,1
+Croacia,2025-11-17,Montenegro,3,2
+Croacia,2025-11-14,Islas Feroe,3,1
+Croacia,2025-10-12,Gibraltar,3,0
+Croacia,2025-10-09,Chequia,0,0
+Croacia,2025-09-08,Montenegro,4,0
+Croacia,2025-09-05,Islas Feroe,1,0
+Uzbekistán,2026-06-08,Países Bajos,1,2
+Uzbekistán,2026-06-01,Canadá,0,2
+Uzbekistán,2026-03-30,Venezuela,0,0
+Uzbekistán,2026-03-27,Gabón,3,1
+Uzbekistán,2026-01-30,Urartu,4,2
+Uzbekistán,2026-01-26,China,2,2
+Uzbekistán,2025-11-18,Irán,0,0
+Uzbekistán,2025-11-14,Egipto,2,0
+Uzbekistán,2025-10-13,Uruguay,1,2
+Uzbekistán,2025-10-09,Kuwait,2,0
+Colombia,2026-06-07,Jordania,2,0
+Colombia,2026-06-01,Costa Rica,3,1
+Colombia,2026-03-29,Francia,1,3
+Colombia,2026-03-26,Croacia,1,2
+Colombia,2025-11-18,Australia,3,0
+Colombia,2025-11-15,Nueva Zelanda,2,1
+Colombia,2025-10-14,Canadá,0,0
+Colombia,2025-10-11,México,4,0
+Colombia,2025-09-09,Venezuela,6,3
+Colombia,2025-09-04,Bolivia,3,0
+Chequia,2026-06-11,Corea del Sur,1,2
+Chequia,2026-06-04,Guatemala,3,1
+Chequia,2026-05-31,Kosovo,2,1
+Chequia,2026-03-31,Dinamarca,2,2
+Chequia,2026-03-26,Irlanda,2,2
+Chequia,2025-11-17,Gibraltar,6,0
+Chequia,2025-11-13,San Marino,1,0
+Chequia,2025-10-12,Islas Feroe,1,2
+Chequia,2025-10-09,Croacia,0,0
+Chequia,2025-09-08,Arabia Saudita,1,1
+Sudáfrica,2026-06-11,México,0,2
+Sudáfrica,2026-06-06,Jamaica,1,1
+Sudáfrica,2026-05-29,Nicaragua,0,0
+Sudáfrica,2026-03-31,Panamá,1,2
+Sudáfrica,2026-03-27,Panamá,1,1
+Sudáfrica,2026-01-04,Camerún,1,2
+Sudáfrica,2025-12-29,Zimbabue,3,2
+Sudáfrica,2025-12-26,Egipto,0,1
+Sudáfrica,2025-12-22,Angola,2,1
+Sudáfrica,2025-12-16,Ghana B,1,0
+Suiza,2026-06-13,Catar,1,1
+Suiza,2026-06-06,Australia,1,1
+Suiza,2026-05-31,Jordania,4,1
+Suiza,2026-03-31,Noruega,0,0
+Suiza,2026-03-27,Alemania,3,4
+Suiza,2025-11-18,Kosovo,1,1
+Suiza,2025-11-15,Suecia,4,1
+Suiza,2025-10-13,Eslovenia,0,0
+Suiza,2025-10-10,Suecia,2,0
+Suiza,2025-09-08,Eslovenia,3,0
+Bosnia y Herzegovina,2026-06-12,Canadá,1,1
+Bosnia y Herzegovina,2026-06-06,Panamá,1,1
+Bosnia y Herzegovina,2026-05-29,Macedonia del Norte,0,0
+Bosnia y Herzegovina,2026-03-31,Italia,1,1
+Bosnia y Herzegovina,2026-03-26,Gales,1,1
+Bosnia y Herzegovina,2025-11-18,Austria,1,1
+Bosnia y Herzegovina,2025-11-15,Rumanía,3,1
+Bosnia y Herzegovina,2025-10-12,Malta,4,1
+Bosnia y Herzegovina,2025-10-09,Chipre,2,2
+Bosnia y Herzegovina,2025-09-09,Austria,1,2
+Canadá,2026-06-12,Bosnia y Herzegovina,1,1
+Canadá,2026-06-05,Irlanda,1,1
+Canadá,2026-06-01,Uzbekistán,2,0
+Canadá,2026-03-31,Túnez,0,0
+Canadá,2026-03-28,Islandia,2,2
+Canadá,2026-01-17,Guatemala,1,0
+Canadá,2025-11-18,Venezuela,2,0
+Canadá,2025-11-13,Ecuador,0,0
+Canadá,2025-10-14,Colombia,0,0
+Canadá,2025-10-10,Australia,0,1
+Qatar,2026-06-13,Suiza,1,1
+Qatar,2026-06-06,El Salvador,0,0
+Qatar,2026-05-28,Irlanda,0,1
+Qatar,2025-12-07,Túnez,0,3
+Qatar,2025-12-04,Siria,1,1
+Qatar,2025-12-01,Palestina,0,1
+Qatar,2025-11-17,Zimbabue,1,2
+Qatar,2025-10-14,Emiratos Árabes Unidos,2,1
+Qatar,2025-10-08,Omán,0,0
+Qatar,2025-09-07,Rusia,1,4
+México,2026-06-11,Sudáfrica,2,0
+México,2026-06-04,Serbia,5,1
+México,2026-05-30,Australia,1,0
+México,2026-05-22,Ghana,2,0
+México,2026-03-31,Bélgica,1,1
+México,2026-03-28,Portugal,0,0
+México,2026-02-25,Islandia,4,0
+México,2026-01-25,Bolivia,1,0
+México,2026-01-22,Panamá,1,0
+México,2025-11-18,Paraguay,1,2
+Corea del Sur,2026-06-11,Chequia,2,1
+Corea del Sur,2026-06-03,El Salvador,1,0
+Corea del Sur,2026-05-30,Trinidad y Tobago,5,0
+Corea del Sur,2026-03-31,Austria,0,1
+Corea del Sur,2026-03-28,Costa de Marfil,0,4
+Corea del Sur,2025-11-18,Ghana,1,0
+Corea del Sur,2025-11-14,Bolivia,2,0
+Corea del Sur,2025-10-14,Paraguay,2,0
+Corea del Sur,2025-10-10,Brasil,0,5
+Corea del Sur,2025-09-09,México,2,2
+Uzbekistán,2026-06-17,Colombia,1,3
+Colombia,2026-06-17,Uzbekistán,3,1
+Estados Unidos,2026-06-12,Paraguay,4,1
+Estados Unidos,2026-06-06,Alemania,1,2
+Estados Unidos,2026-05-31,Senegal,3,2
+Estados Unidos,2026-03-31,Portugal,0,2
+Estados Unidos,2026-03-28,Bélgica,2,5
+Estados Unidos,2025-11-18,Uruguay,5,1
+Estados Unidos,2025-11-15,Paraguay,2,1
+Estados Unidos,2025-10-14,Australia,2,1
+Estados Unidos,2025-10-10,Ecuador,1,1
+Estados Unidos,2025-09-09,Japón,2,0
+Australia,2026-06-13,Turquía,2,0
+Australia,2026-06-06,Suiza,1,1
+Australia,2026-05-30,México,0,1
+Australia,2026-03-31,Curazao,5,1
+Australia,2026-03-27,Camerún,1,0
+Australia,2025-11-18,Colombia,0,3
+Australia,2025-11-14,Venezuela,0,1
+Australia,2025-10-14,Estados Unidos,1,2
+Australia,2025-10-10,Canadá,1,0
+Australia,2025-09-09,Nueva Zelanda,3,1
+Escocia,2026-06-13,Haití,1,0
+Escocia,2026-06-06,Bolivia,4,0
+Escocia,2026-05-30,Curazao,4,1
+Escocia,2026-03-31,Costa de Marfil,0,1
+Escocia,2026-03-28,Japón,0,1
+Escocia,2025-11-18,Dinamarca,4,2
+Escocia,2025-11-15,Grecia,2,3
+Escocia,2025-10-12,Bielorrusia,2,1
+Escocia,2025-10-09,Grecia,3,1
+Escocia,2025-09-08,Bielorrusia,2,0
+Marruecos,2026-06-13,Brasil,1,1
+Marruecos,2026-06-07,Noruega,1,1
+Marruecos,2026-06-02,Madagascar,4,0
+Marruecos,2026-05-26,Burundi,5,0
+Marruecos,2026-03-31,Paraguay,2,1
+Marruecos,2026-03-27,Ecuador,1,1
+Marruecos,2026-01-18,Senegal,3,0
+Marruecos,2026-01-14,Nigeria,0,0
+Marruecos,2026-01-09,Camerún,2,0
+Marruecos,2026-01-04,Tanzania,1,0
+Brasil,2026-06-13,Marruecos,1,1
+Brasil,2026-06-06,Egipto,2,1
+Brasil,2026-05-31,Panamá,6,2
+Brasil,2026-03-31,Croacia,3,1
+Brasil,2026-03-26,Francia,1,2
+Brasil,2025-11-18,Túnez,1,1
+Brasil,2025-11-15,Senegal,2,0
+Brasil,2025-10-14,Japón,2,3
+Brasil,2025-10-10,Corea del Sur,5,0
+Brasil,2025-09-09,Bolivia,0,1
+Haití,2026-06-13,Escocia,0,1
+Haití,2026-06-05,Perú,1,2
+Haití,2026-06-02,Nueva Zelanda,4,0
+Haití,2026-03-31,Islandia,1,1
+Haití,2026-03-28,Túnez,0,1
+Haití,2025-11-18,Nicaragua,2,0
+Haití,2025-11-13,Costa Rica,1,0
+Haití,2025-10-13,Honduras,0,3
+Haití,2025-10-09,Nicaragua,3,0
+Haití,2025-09-09,Costa Rica,3,3
+Turquía,2026-06-13,Australia,0,2
+Turquía,2026-06-06,Venezuela,2,1
+Turquía,2026-06-01,Macedonia del Norte,4,0
+Turquía,2026-03-31,Kosovo,1,0
+Turquía,2026-03-26,Rumanía,1,0
+Turquía,2025-11-18,España,2,2
+Turquía,2025-11-15,Bulgaria,2,0
+Turquía,2025-10-14,Georgia,4,1
+Turquía,2025-10-11,Bulgaria,6,1
+Turquía,2025-09-07,España,0,6
+Paraguay,2026-06-12,Estados Unidos,1,4
+Paraguay,2026-06-05,Nicaragua,4,0
+Paraguay,2026-03-31,Marruecos,1,2
+Paraguay,2026-03-27,Grecia,1,0
+Paraguay,2025-11-18,México,2,1
+Paraguay,2025-11-15,Estados Unidos,1,2
+Paraguay,2025-10-14,Corea del Sur,0,2
+Paraguay,2025-10-10,Japón,2,2
+Paraguay,2025-09-09,Perú,1,0
+Paraguay,2025-09-04,Ecuador,0,0
+Portugal,2026-06-17,RD Congo,1,1
+Portugal,2026-06-10,Nigeria,2,1
+Portugal,2026-06-06,Chile,2,1
+Portugal,2026-03-31,Estados Unidos,2,0
+Portugal,2026-03-28,México,0,0
+Portugal,2025-11-16,Armenia,9,1
+Portugal,2025-11-13,Irlanda,0,2
+Portugal,2025-10-14,Hungría,2,2
+Portugal,2025-10-11,Irlanda,1,0
+Portugal,2025-09-09,Hungría,3,2
+RD Congo,2026-06-17,Portugal,1,1
+RD Congo,2026-06-09,Chile,1,2
+RD Congo,2026-06-03,Dinamarca,0,0
+RD Congo,2026-03-31,Jamaica,1,0
+RD Congo,2026-03-25,Bermudas,2,0
+RD Congo,2026-01-06,Argelia,0,1
+RD Congo,2025-12-30,Botsuana,3,0
+RD Congo,2025-12-27,Senegal,1,1
+RD Congo,2025-12-23,Benín,1,0
+RD Congo,2025-12-16,Zambia,2,0
+Francia,2026-06-16,Senegal,3,1
+Francia,2026-06-08,Irlanda del Norte,3,1
+Francia,2026-06-04,Costa de Marfil,1,2
+Francia,2026-03-29,Colombia,3,1
+Francia,2026-03-26,Brasil,2,1
+Francia,2025-11-16,Azerbaiyán,3,1
+Francia,2025-11-13,Ucrania,4,0
+Francia,2025-10-13,Islandia,2,2
+Francia,2025-10-10,Azerbaiyán,3,0
+Francia,2025-09-09,Islandia,2,1
+Senegal,2026-06-16,Francia,1,3
+Senegal,2026-06-09,Arabia Saudita,0,0
+Senegal,2026-05-31,Estados Unidos,2,3
+Senegal,2026-03-31,Gambia,3,1
+Senegal,2026-03-28,Perú,2,0
+Senegal,2026-01-18,Marruecos,0,3
+Senegal,2026-01-14,Egipto,1,0
+Senegal,2026-01-09,Mali,1,0
+Senegal,2026-01-03,Sudán,3,1
+Senegal,2025-12-30,Benín,3,0
+Argentina,2026-06-16,Argelia,3,0
+Argentina,2026-06-09,Islandia,3,0
+Argentina,2026-06-06,Honduras,2,0
+Argentina,2026-03-31,Zambia,5,0
+Argentina,2026-03-27,Mauritania,2,1
+Argentina,2025-11-14,Angola,2,0
+Argentina,2025-10-14,Puerto Rico,6,0
+Argentina,2025-10-10,Venezuela,1,0
+Argentina,2025-09-09,Ecuador,0,1
+Argentina,2025-09-04,Venezuela,3,0
+Argelia,2026-06-16,Argentina,0,3
+Argelia,2026-06-10,Bolivia,4,0
+Argelia,2026-06-03,Países Bajos,1,0
+Argelia,2026-03-31,Uruguay,0,0
+Argelia,2026-03-27,Guatemala,7,0
+Argelia,2026-01-10,Nigeria,0,2
+Argelia,2026-01-06,RD Congo,1,0
+Argelia,2025-12-31,Guinea Ecuatorial,3,1
+Argelia,2025-12-28,Burkina Faso,1,0
+Argelia,2025-12-24,Sudán,3,0
+Austria,2026-06-16,Jordania,3,1
+Austria,2026-06-01,Túnez,1,0
+Austria,2026-03-31,Corea del Sur,1,0
+Austria,2026-03-27,Ghana,5,1
+Austria,2025-11-18,Bosnia y Herzegovina,1,1
+Austria,2025-11-15,Chipre,2,0
+Austria,2025-10-12,Rumanía,0,1
+Austria,2025-10-09,San Marino,10,0
+Austria,2025-09-09,Bosnia y Herzegovina,2,1
+Austria,2025-09-06,Chipre,1,0
+Jordania,2026-06-16,Austria,1,3
+Jordania,2026-06-07,Colombia,0,2
+Jordania,2026-05-31,Suiza,1,4
+Jordania,2026-03-31,Nigeria,2,2
+Jordania,2026-03-27,Costa Rica,2,2
+Jordania,2025-12-18,Marruecos,2,3
+Jordania,2025-12-15,Arabia Saudita,1,0
+Jordania,2025-12-12,Irak,1,0
+Jordania,2025-12-09,Egipto,3,0
+Jordania,2025-12-06,Kuwait,3,1
+Países Bajos,2026-06-14,Japón,2,2
+Países Bajos,2026-06-08,Uzbekistán,2,1
+Países Bajos,2026-06-03,Argelia,0,1
+Países Bajos,2026-03-31,Ecuador,1,1
+Países Bajos,2026-03-27,Noruega,2,1
+Países Bajos,2025-11-17,Lituania,4,0
+Países Bajos,2025-11-14,Polonia,1,1
+Países Bajos,2025-10-12,Finlandia,4,0
+Países Bajos,2025-10-09,Malta,4,0
+Países Bajos,2025-09-07,Lituania,3,2
+Japón,2026-06-14,Países Bajos,2,2
+Japón,2026-05-31,Islandia,1,0
+Japón,2026-03-31,Inglaterra,1,0
+Japón,2026-03-28,Escocia,1,0
+Japón,2025-11-18,Bolivia,3,0
+Japón,2025-11-14,Ghana,2,0
+Japón,2025-10-14,Brasil,3,2
+Japón,2025-10-10,Paraguay,2,2
+Japón,2025-09-09,Estados Unidos,0,2
+Japón,2025-09-06,México,0,0
+Suecia,2026-06-14,Túnez,5,1
+Suecia,2026-06-04,Grecia,2,2
+Suecia,2026-06-01,Noruega,1,3
+Suecia,2026-03-31,Polonia,3,2
+Suecia,2026-03-26,Ucrania,3,1
+Suecia,2025-11-18,Eslovenia,1,1
+Suecia,2025-11-15,Suiza,1,4
+Suecia,2025-10-13,Kosovo,0,1
+Suecia,2025-10-10,Suiza,0,2
+Suecia,2025-09-08,Kosovo,0,2
+Túnez,2026-06-14,Suecia,1,5
+Túnez,2026-06-06,Bélgica,0,5
+Túnez,2026-06-01,Austria,0,1
+Túnez,2026-03-31,Canadá,0,0
+Túnez,2026-03-28,Haití,1,0
+Túnez,2026-01-03,Mali,1,1
+Túnez,2025-12-30,Tanzania,1,1
+Túnez,2025-12-27,Nigeria,2,3
+Túnez,2025-12-23,Uganda,3,1
+Túnez,2025-12-18,Botsuana,2,1
+Alemania,2026-06-14,Curazao,7,1
+Alemania,2026-06-06,Estados Unidos,2,1
+Alemania,2026-05-31,Finlandia,4,0
+Alemania,2026-03-30,Ghana,2,1
+Alemania,2026-03-27,Suiza,4,3
+Alemania,2025-11-17,Eslovaquia,6,0
+Alemania,2025-11-14,Luxemburgo,2,0
+Alemania,2025-10-13,Irlanda del Norte,1,0
+Alemania,2025-10-10,Luxemburgo,4,0
+Alemania,2025-09-07,Irlanda del Norte,3,1
+Curazao,2026-06-14,Alemania,1,7
+Curazao,2026-06-06,Aruba,4,0
+Curazao,2026-05-30,Escocia,1,4
+Curazao,2026-03-31,Australia,1,5
+Curazao,2026-03-27,China,0,2
+Curazao,2025-11-18,Jamaica,0,0
+Curazao,2025-11-13,Bermudas,7,0
+Curazao,2025-10-14,Trinidad y Tobago,1,1
+Curazao,2025-10-10,Jamaica,2,0
+Curazao,2025-09-09,Bermudas,3,2
+Costa de Marfil,2026-06-14,Ecuador,1,0
+Costa de Marfil,2026-06-08,Philadelphia Union II,2,0
+Costa de Marfil,2026-06-04,Francia,2,1
+Costa de Marfil,2026-03-31,Escocia,1,0
+Costa de Marfil,2026-03-28,Corea del Sur,4,0
+Costa de Marfil,2026-01-10,Egipto,2,3
+Costa de Marfil,2026-01-06,Burkina Faso,3,0
+Costa de Marfil,2025-12-31,Gabón,3,2
+Costa de Marfil,2025-12-28,Camerún,1,1
+Costa de Marfil,2025-12-24,Mozambique,1,0
+Ecuador,2026-06-14,Costa de Marfil,0,1
+Ecuador,2026-06-07,Guatemala,3,0
+Ecuador,2026-05-30,Arabia Saudita,2,1
+Ecuador,2026-03-31,Países Bajos,1,1
+Ecuador,2026-03-27,Marruecos,1,1
+Ecuador,2025-11-18,Nueva Zelanda,2,0
+Ecuador,2025-11-13,Canadá,0,0
+Ecuador,2025-10-14,México,1,1
+Ecuador,2025-10-10,Estados Unidos,1,1
+Ecuador,2025-09-09,Argentina,1,0
+Bélgica,2026-06-15,Egipto,1,1
+Bélgica,2026-06-06,Túnez,5,0
+Bélgica,2026-06-02,Croacia,2,0
+Bélgica,2026-03-31,México,1,1
+Bélgica,2026-03-28,Estados Unidos,5,2
+Bélgica,2025-11-18,Liechtenstein,7,0
+Bélgica,2025-11-15,Kazajistán,1,1
+Bélgica,2025-10-13,Gales,4,2
+Bélgica,2025-10-10,Macedonia del Norte,0,0
+Bélgica,2025-09-07,Kazajistán,6,0
+Egipto,2026-06-15,Bélgica,1,1
+Egipto,2026-06-06,Brasil,1,2
+Egipto,2026-05-28,Rusia,1,0
+Egipto,2026-03-31,España,0,0
+Egipto,2026-03-27,Arabia Saudita,4,0
+Egipto,2026-01-17,Nigeria,0,0
+Egipto,2026-01-14,Senegal,0,1
+Egipto,2026-01-10,Costa de Marfil,3,2
+Egipto,2026-01-05,Benín,3,1
+Egipto,2025-12-29,Angola,0,0
+Irán,2026-06-15,Nueva Zelanda,2,2
+Irán,2026-06-04,Mali,2,0
+Irán,2026-05-29,Gambia,3,1
+Irán,2026-03-31,Costa Rica,5,0
+Irán,2026-03-27,Nigeria,1,2
+Irán,2025-11-18,Uzbekistán,0,0
+Irán,2025-11-13,Cabo Verde,0,0
+Irán,2025-10-14,Tanzania,2,0
+Irán,2025-10-10,Rusia,1,2
+Irán,2025-09-08,Uzbekistán,0,1
+Nueva Zelanda,2026-06-15,Irán,2,2
+Nueva Zelanda,2026-06-06,Inglaterra,0,1
+Nueva Zelanda,2026-06-02,Haití,0,4
+Nueva Zelanda,2026-03-30,Chile,4,1
+Nueva Zelanda,2026-03-27,Finlandia,0,2
+Nueva Zelanda,2025-11-18,Ecuador,0,2
+Nueva Zelanda,2025-11-15,Colombia,1,2
+Nueva Zelanda,2025-10-14,Noruega,1,1
+Nueva Zelanda,2025-10-09,Polonia,0,1
+Nueva Zelanda,2025-09-09,Australia,1,3
+Arabia Saudita,2026-06-15,Uruguay,1,1
+Arabia Saudita,2026-06-09,Senegal,0,0
+Arabia Saudita,2026-06-05,Puerto Rico,3,0
+Arabia Saudita,2026-05-30,Ecuador,1,2
+Arabia Saudita,2026-03-31,Serbia,1,2
+Arabia Saudita,2026-03-27,Egipto,0,4
+Arabia Saudita,2025-12-15,Jordania,0,1
+Arabia Saudita,2025-12-11,Palestina,2,1
+Arabia Saudita,2025-12-08,Marruecos,0,1
+Arabia Saudita,2025-12-05,Comores,3,1
+Uruguay,2026-06-15,Arabia Saudita,1,1
+Uruguay,2026-03-31,Argelia,0,0
+Uruguay,2026-03-27,Inglaterra,1,1
+Uruguay,2025-11-18,Estados Unidos,1,5
+Uruguay,2025-11-15,México,0,0
+Uruguay,2025-10-13,Uzbekistán,2,1
+Uruguay,2025-10-10,República Dominicana,1,0
+Uruguay,2025-09-09,Chile,0,0
+Uruguay,2025-09-04,Perú,3,0
+Uruguay,2025-06-10,Venezuela,2,0
+España,2026-06-15,Cabo Verde,0,0
+España,2026-06-08,Perú,3,1
+España,2026-06-04,Irak,1,1
+España,2026-03-31,Egipto,0,0
+España,2026-03-27,Serbia,3,0
+España,2025-11-18,Turquía,2,2
+España,2025-11-15,Georgia,4,0
+España,2025-10-14,Bulgaria,4,0
+España,2025-10-11,Georgia,2,0
+España,2025-09-07,Turquía,6,0
+Cabo Verde,2026-06-15,España,0,0
+Cabo Verde,2026-06-06,Bermudas,3,0
+Cabo Verde,2026-05-31,Serbia,3,0
+Cabo Verde,2026-03-29,Finlandia,1,1
+Cabo Verde,2026-03-26,Chile,2,4
+Cabo Verde,2025-11-17,Egipto,1,1
+Cabo Verde,2025-11-13,Irán,0,0
+Cabo Verde,2025-10-13,Eswatini,3,0
+Cabo Verde,2025-10-08,Libia,3,3
+Cabo Verde,2025-09-09,Camerún,1,0
+Ghana,2026-06-17,Panamá,1,0
+Ghana,2026-06-02,Gales,1,1
+Ghana,2026-05-22,México,0,2
+Ghana,2026-03-30,Alemania,1,2
+Ghana,2026-03-27,Austria,1,5
+Ghana,2025-11-18,Corea del Sur,0,1
+Ghana,2025-11-14,Japón,0,2
+Ghana,2025-10-12,Comores,1,0
+Ghana,2025-10-08,República Centroafricana,5,0
+Ghana,2025-09-08,Mali,1,0
+Panamá,2026-06-17,Ghana,0,1
+Panamá,2026-06-06,Bosnia y Herzegovina,1,1
+Panamá,2026-06-03,República Dominicana,4,2
+Panamá,2026-05-31,Brasil,2,6
+Panamá,2026-03-31,Sudáfrica,2,1
+Panamá,2026-03-27,Sudáfrica,1,1
+Panamá,2026-01-22,México,0,1
+Panamá,2026-01-18,Bolivia,1,1
+Panamá,2025-11-18,El Salvador,3,0
+Panamá,2025-11-13,Guatemala,3,2
+Irak,2026-06-16,Noruega,1,4
+Irak,2026-06-09,Venezuela,0,2
+Irak,2026-06-04,España,1,1
+Irak,2026-05-29,Andorra,1,0
+Irak,2026-03-31,Bolivia,2,1
+Irak,2025-12-12,Jordania,0,1
+Irak,2025-12-09,Argelia,0,2
+Irak,2025-12-06,Sudán,2,0
+Irak,2025-12-03,Bahréin,2,1
+Irak,2025-11-18,Emiratos Árabes Unidos,2,1
+Noruega,2026-06-16,Irak,4,1
+Noruega,2026-06-07,Marruecos,1,1
+Noruega,2026-06-01,Suecia,3,1
+Noruega,2026-03-31,Suiza,0,0
+Noruega,2026-03-27,Países Bajos,1,2
+Noruega,2025-11-16,Italia,4,1
+Noruega,2025-11-13,Estonia,4,1
+Noruega,2025-10-14,Nueva Zelanda,1,1
+Noruega,2025-10-11,Israel,5,0
+Noruega,2025-09-09,Moldavia,11,1
+México,2026-06-18,Corea del Sur,1,0
+Corea del Sur,2026-06-18,México,0,1
+Inglaterra,2026-06-17,Croacia,4,2
+Croacia,2026-06-17,Inglaterra,2,4
+Chequia,2026-06-18,Sudáfrica,1,1
+Sudáfrica,2026-06-18,Chequia,1,1
+Suiza,2026-06-18,Bosnia y Herzegovina,4,1
+Bosnia y Herzegovina,2026-06-18,Suiza,1,4
+Canadá,2026-06-18,Qatar,6,0
+Qatar,2026-06-18,Canadá,0,6
+Estados Unidos,2026-06-19,Australia,2,0
+Australia,2026-06-19,Estados Unidos,0,2
+Escocia,2026-06-19,Marruecos,0,1
+Marruecos,2026-06-19,Escocia,1,0
+Turquía,2026-06-19,Paraguay,0,1
+Paraguay,2026-06-19,Turquía,1,0
+Brasil,2026-06-19,Haití,3,0
+Haití,2026-06-19,Brasil,0,3
+Países Bajos,2026-06-20,Suecia,5,1
+Suecia,2026-06-20,Países Bajos,1,5
+Alemania,2026-06-20,Costa de Marfil,2,1
+Costa de Marfil,2026-06-20,Alemania,1,2
+Ecuador,2026-06-20,Curazao,0,0
+Curazao,2026-06-20,Ecuador,0,0
+Túnez,2026-06-20,Japón,0,4
+Japón,2026-06-20,Túnez,4,0
+Arabia Saudita,2026-06-21,España,0,4
+España,2026-06-21,Arabia Saudita,4,0
+Cabo Verde,2026-06-21,Uruguay,2,2
+Uruguay,2026-06-21,Cabo Verde,2,2
+Egipto,2026-06-21,Nueva Zelanda,3,1
+Nueva Zelanda,2026-06-21,Egipto,1,3
+Irán,2026-06-21,Bélgica,0,0
+Bélgica,2026-06-21,Irán,0,0
+Portugal,2026-06-23,Uzbekistán,5,0
+Uzbekistán,2026-06-23,Portugal,0,5
+Argentina,2026-06-22,Austria,2,0
+Austria,2026-06-22,Argentina,0,2
+Francia,2026-06-22,Irak,3,0
+Irak,2026-06-22,Francia,0,3
+Noruega,2026-06-22,Senegal,3,2
+Senegal,2026-06-22,Noruega,2,3
+Argelia,2026-06-22,Jordania,2,1
+Jordania,2026-06-22,Argelia,1,2
+Inglaterra,2026-06-23,Ghana,0,0
+Ghana,2026-06-23,Inglaterra,0,0
+Croacia,2026-06-23,Panamá,1,0
+Panamá,2026-06-23,Croacia,0,1
+Colombia,2026-06-23,RD Congo,1,0
+RD Congo,2026-06-23,Colombia,0,1
+México,2026-06-24,Chequia,3,0
+Chequia,2026-06-24,México,0,3
+Sudáfrica,2026-06-24,Corea del Sur,1,0
+Corea del Sur,2026-06-24,Sudáfrica,0,1
+Brasil,2026-06-24,Escocia,3,0
+Escocia,2026-06-24,Brasil,0,3
+Marruecos,2026-06-24,Haití,4,2
+Haití,2026-06-24,Marruecos,2,4
+Australia,2026-06-25,Paraguay,0,0
+Paraguay,2026-06-25,Australia,0,0
+Suecia,2026-06-25,Japón,1,1
+Japón,2026-06-25,Suecia,1,1
+Turquía,2026-06-25,Estados Unidos,3,2
+Estados Unidos,2026-06-25,Turquía,2,3
+Túnez,2026-06-25,Países Bajos,1,3
+Países Bajos,2026-06-25,Túnez,3,1
+Curazao,2026-06-25,Costa de Marfil,0,2
+Costa de Marfil,2026-06-25,Curazao,2,0
+Ecuador,2026-06-25,Alemania,2,1
+Alemania,2026-06-25,Ecuador,1,2
+Irán,2026-06-26,Egipto,1,1
+Egipto,2026-06-26,Irán,1,1
+Bélgica,2026-06-26,Nueva Zelanda,5,1
+Nueva Zelanda,2026-06-26,Bélgica,1,5
+Cabo Verde,2026-06-26,Arabia Saudita,0,0
+Arabia Saudita,2026-06-26,Cabo Verde,0,0
+España,2026-06-26,Uruguay,1,0
+Uruguay,2026-06-26,España,0,1
+Noruega,2026-06-26,Francia,1,4
+Francia,2026-06-26,Noruega,4,1
+Senegal,2026-06-26,Irak,5,0
+Irak,2026-06-26,Senegal,0,5
