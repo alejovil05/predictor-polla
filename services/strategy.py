@@ -247,6 +247,108 @@ def get_draw_cover_pick(score_df: pd.DataFrame) -> dict | None:
     }
 
 
+def apply_decision_filter(
+    score_df: pd.DataFrame,
+    model_row: pd.Series,
+    exact_row: pd.Series,
+    summary: dict,
+) -> dict:
+    """
+    Capa final de criterio para no obedecer ciegamente al EV.
+
+    El modelo base sigue siendo la fuente principal. Este filtro solo interviene
+    cuando el propio modelo muestra baja convicción y el empate 1-1 tiene señales
+    fuertes. Si no hay suficiente evidencia, mantiene el pick del modelo.
+    """
+    if score_df is None or score_df.empty:
+        return {
+            "final_row": model_row,
+            "final_score": model_row["Marcador"],
+            "traffic_light": "🟡 Revisar",
+            "action": "mantener_modelo",
+            "changed": False,
+            "reason": "No hay matriz suficiente para aplicar filtro. Se mantiene el modelo.",
+        }
+
+    df = score_df.sort_values("Puntos esperados", ascending=False).copy()
+    best = df.iloc[0]
+    second = df.iloc[1] if len(df) > 1 else best
+    gap = float(best["Puntos esperados"] - second["Puntos esperados"])
+
+    one_one_candidates = df[(df["Goles A"] == 1) & (df["Goles B"] == 1)].copy()
+    one_one_row = one_one_candidates.iloc[0] if not one_one_candidates.empty else None
+
+    exact_ranked = df.sort_values("Prob. exacta", ascending=False).reset_index(drop=True)
+    one_one_exact_rank = None
+    if one_one_row is not None:
+        one_one_exact_matches = exact_ranked[
+            (exact_ranked["Goles A"] == 1) & (exact_ranked["Goles B"] == 1)
+        ]
+        if not one_one_exact_matches.empty:
+            one_one_exact_rank = int(one_one_exact_matches.index[0]) + 1
+
+    exact_is_one_one = int(exact_row["Goles A"]) == 1 and int(exact_row["Goles B"]) == 1
+    one_one_top3_exact = one_one_exact_rank is not None and one_one_exact_rank <= 3
+    draw_probability = float(summary.get("Empate", 0)) * 100
+    under_25 = float(summary.get("Under 2.5", 0)) * 100
+
+    if gap > 0.15:
+        return {
+            "final_row": model_row,
+            "final_score": model_row["Marcador"],
+            "traffic_light": "🟢 Alta convicción",
+            "action": "mantener_modelo",
+            "changed": False,
+            "reason": f"Gap {gap:.2f} > 0.15. El modelo tiene ventaja suficiente.",
+        }
+
+    if gap >= 0.05:
+        return {
+            "final_row": model_row,
+            "final_score": model_row["Marcador"],
+            "traffic_light": "🟡 Convicción media",
+            "action": "mantener_modelo_revisar_plan_b",
+            "changed": False,
+            "reason": (
+                f"Gap {gap:.2f}. Se mantiene el modelo, pero conviene revisar Plan B empate "
+                "y contexto externo antes de jugar."
+            ),
+        }
+
+    strong_one_one_case = (
+        one_one_row is not None
+        and (exact_is_one_one or one_one_top3_exact)
+        and draw_probability >= 26
+        and under_25 >= 50
+    )
+
+    if strong_one_one_case:
+        return {
+            "final_row": one_one_row,
+            "final_score": one_one_row["Marcador"],
+            "traffic_light": "🔴 Baja convicción",
+            "action": "sugerir_1_1",
+            "changed": True,
+            "reason": (
+                f"Gap {gap:.2f} < 0.05 + 1-1 fuerte "
+                f"(rank exacto {one_one_exact_rank}, empate {draw_probability:.1f}%, "
+                f"Under 2.5 {under_25:.1f}%)."
+            ),
+        }
+
+    return {
+        "final_row": model_row,
+        "final_score": model_row["Marcador"],
+        "traffic_light": "🔴 Baja convicción",
+        "action": "revisar_manual",
+        "changed": False,
+        "reason": (
+            f"Gap {gap:.2f} < 0.05, pero no hay evidencia suficiente para mover el pick a 1-1. "
+            "Revisar manualmente."
+        ),
+    }
+
+
 def build_decision_alerts(score_df: pd.DataFrame, xg_a: float, xg_b: float) -> list[str]:
     if score_df is None or len(score_df) < 3:
         return []

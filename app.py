@@ -16,6 +16,7 @@ from services.elo import estimate_xg_from_elo
 from services.form_model import estimate_xg_from_form, get_team_form
 from services.backtesting import find_model_learnings, group_backtest, summarize_backtest
 from services.strategy import (
+    apply_decision_filter,
     blend_elo_form_xg,
     build_decision_alerts,
     get_draw_cover_pick,
@@ -52,6 +53,11 @@ RESULT_COLUMNS = [
     "recommended_score",
     "recommended_points_expected",
     "recommended_exact_prob_pct",
+    "model_recommended_score",
+    "filter_final_score",
+    "filter_action",
+    "filter_traffic_light",
+    "filter_reason",
     "conservative_home",
     "conservative_away",
     "conservative_score",
@@ -118,6 +124,8 @@ def normalize_results_dtypes(df):
     text_columns = [
         "date", "group", "home", "away", "stage", "style", "xg_source",
         "recommended_score", "conservative_score", "risk", "real_score",
+        "model_recommended_score", "filter_final_score", "filter_action",
+        "filter_traffic_light", "filter_reason",
         "status", "source", "created_at", "evaluated_at",
     ]
 
@@ -458,12 +466,15 @@ elif xg_a >= 1.80 and xg_b < 0.75:
         smart_pick = smart_row["Marcador"]
         smart_reason = "Favorito fuerte y rival con bajo xG. Se prioriza portería a cero."
 
-recommended_home, recommended_away = parse_score_from_row(smart_row)
+decision_filter = apply_decision_filter(df, smart_row, most_likely, summary)
+final_row = decision_filter["final_row"]
+final_pick = decision_filter["final_score"]
+recommended_home, recommended_away = parse_score_from_row(final_row)
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("Marcador recomendado para la polla")
+    st.subheader("Recomendado por modelo")
     st.success(smart_pick)
     st.metric("Puntos esperados", f"{smart_row['Puntos esperados']:.2f}")
     st.metric("Probabilidad exacta", f"{smart_row['Prob. exacta %']:.2f}%")
@@ -476,8 +487,16 @@ with col2:
     st.metric("Probabilidad exacta", f"{most_likely['Prob. exacta %']:.2f}%")
     st.metric("Puntos esperados", f"{most_likely['Puntos esperados']:.2f}")
 
-st.warning(f"Recomendación que se guardará: {smart_pick}")
-st.caption(f"Motivo: {smart_reason}")
+st.warning(f"Filtro final sugerido: {final_pick}")
+st.caption(f"Semáforo: {decision_filter['traffic_light']} | Motivo: {decision_filter['reason']}")
+
+if decision_filter["changed"]:
+    st.info(
+        f"El filtro cambió el pick base ({smart_pick}) por {final_pick}. "
+        "Esto ocurre solo en baja convicción y con señales fuertes de empate."
+    )
+else:
+    st.caption(f"Motivo del modelo base: {smart_reason}")
 
 st.subheader("Mesa de decisión del tipster")
 st.caption("No todos los picks sirven para lo mismo: seguridad, EV, diferencial y exacto son decisiones distintas.")
@@ -648,8 +667,13 @@ if st.button("Guardar pronóstico actual", disabled=already_saved):
         "recommended_home": recommended_home,
         "recommended_away": recommended_away,
         "recommended_score": f"{recommended_home}-{recommended_away}",
-        "recommended_points_expected": round(float(smart_row["Puntos esperados"]), 2),
-        "recommended_exact_prob_pct": round(float(smart_row["Prob. exacta %"]), 2),
+        "recommended_points_expected": round(float(final_row["Puntos esperados"]), 2),
+        "recommended_exact_prob_pct": round(float(final_row["Prob. exacta %"]), 2),
+        "model_recommended_score": smart_pick,
+        "filter_final_score": final_pick,
+        "filter_action": decision_filter["action"],
+        "filter_traffic_light": decision_filter["traffic_light"],
+        "filter_reason": decision_filter["reason"],
         "conservative_home": conservative_home,
         "conservative_away": conservative_away,
         "conservative_score": f"{conservative_home}-{conservative_away}",
@@ -933,6 +957,7 @@ for _, match in matches.iterrows():
     conf_all, risk_all, _, _ = calculate_confidence(df_all.head(8))
     gap_all = get_decision_gap(df_all)
     conservative_all = get_conservative_score(df_all)
+    decision_filter_all = apply_decision_filter(df_all, best, likely, summary_all)
     strategies_all = get_strategy_picks(df_all)
     differential_all = {
         "Marcador": best["Marcador"],
@@ -961,7 +986,10 @@ for _, match in matches.iterrows():
         "Fuente xG": source,
         "xG A": use_xg_home,
         "xG B": use_xg_away,
-        "Marcador recomendado": best["Marcador"],
+        "Recomendado modelo": best["Marcador"],
+        "Filtro final": decision_filter_all["final_score"],
+        "Semáforo filtro": decision_filter_all["traffic_light"],
+        "Motivo filtro": decision_filter_all["reason"],
         "Marcador conservador": conservative_all["Marcador"] if conservative_all else "",
         "Pick diferencial": differential_all["Marcador"],
         "Ventaja estratégica diferencial": differential_all["Ventaja estratégica"],
