@@ -3,22 +3,27 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WORLD_CUP = ROOT / "data" / "worldcup2026.csv"
-HISTORY = ROOT / "data" / "team_match_history.csv"
 
-# Ajuste conservador para eliminación directa
-KO_FACTOR = 0.92
+KO_FACTORS = {
+    "16avos": 0.92,
+    "Octavos": 0.88,
+    "Cuartos": 0.86,
+    "Semis": 0.84,
+    "Final": 0.82,
+}
 
 def clamp(value, low=0.35, high=2.75):
     return max(low, min(high, value))
 
-def estimate_xg(elo_home, elo_away, base_total=2.35):
+def estimate_xg(elo_home, elo_away, ko_factor=0.92, base_total=2.35):
     diff = elo_home - elo_away
     share_home = 1 / (1 + 10 ** (-diff / 400))
-    xg_home = base_total * share_home
-    xg_away = base_total * (1 - share_home)
-    return clamp(xg_home * KO_FACTOR), clamp(xg_away * KO_FACTOR)
 
-# Ajusta este diccionario con tus Elo actuales
+    xg_home = base_total * share_home * ko_factor
+    xg_away = base_total * (1 - share_home) * ko_factor
+
+    return clamp(xg_home), clamp(xg_away)
+
 TEAM_ELO = {
     "Argentina": 1850,
     "Brasil": 1810,
@@ -41,27 +46,36 @@ TEAM_ELO = {
     "Costa de Marfil": 1610,
     "Noruega": 1660,
     "Suecia": 1650,
+    "Egipto": 1645,
+    "Suiza": 1685,
+    "México": 1715,
+    "Bélgica": 1775,
 }
 
 def main():
     df = pd.read_csv(WORLD_CUP)
 
-    mask = df["stage"].str.lower().eq("16avos")
+    for stage, factor in KO_FACTORS.items():
+        mask = df["stage"].str.lower().eq(stage.lower())
 
-    for idx, row in df[mask].iterrows():
-        home = row["home"]
-        away = row["away"]
+        for idx, row in df[mask].iterrows():
+            home = row["home"]
+            away = row["away"]
 
-        elo_home = TEAM_ELO.get(home, 1550)
-        elo_away = TEAM_ELO.get(away, 1550)
+            elo_home = TEAM_ELO.get(home, 1550)
+            elo_away = TEAM_ELO.get(away, 1550)
 
-        xg_home, xg_away = estimate_xg(elo_home, elo_away)
+            xg_home, xg_away = estimate_xg(
+                elo_home,
+                elo_away,
+                ko_factor=factor
+            )
 
-        df.loc[idx, "xg_home"] = round(xg_home, 2)
-        df.loc[idx, "xg_away"] = round(xg_away, 2)
+            df.loc[idx, "xg_home"] = round(xg_home, 2)
+            df.loc[idx, "xg_away"] = round(xg_away, 2)
 
     df.to_csv(WORLD_CUP, index=False, encoding="utf-8")
-    print("worldcup2026.csv actualizado con xG automáticos para 16avos.")
+    print("worldcup2026.csv actualizado con xG automáticos para fases KO.")
 
 if __name__ == "__main__":
     main()
